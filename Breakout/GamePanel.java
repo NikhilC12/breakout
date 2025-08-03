@@ -1,9 +1,7 @@
-import javax.swing.*;
 import java.awt.*;
 import java.awt.event.*;
 import java.util.Random;
-import java.awt.event.KeyEvent;
-import java.awt.event.KeyListener;
+import javax.swing.*;
 
 public class GamePanel extends JPanel implements ActionListener, KeyListener 
 {
@@ -139,7 +137,7 @@ public class GamePanel extends JPanel implements ActionListener, KeyListener
         g.drawString("- Use LEFT and RIGHT arrow keys to move the paddle", 180, 160);
         g.drawString("- Bounce the ball to destroy all the bricks", 220, 200);
         g.drawString("- Each level gets harder and gives more points", 215, 230);
-        g.drawString("- Don’t let the ball fall below the paddle", 235, 260);
+        g.drawString("- Dont let the ball fall below the paddle", 235, 260);
         g.drawString("- Spend points at the shop", 230, 290);
 
         g.setFont(new Font("Arial", Font.ITALIC, 18));
